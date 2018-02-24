@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string-array name="order_entries">
+        <item>(A-Z)</item>
+        <item>Date descending</item>
+        <item>Date ascending</item>
+        <item>Based on priority</item>
+
+    </string-array>
+
+    <string-array name="order_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.java.kristof.todolist.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="50"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miNewToDoItem"
+        android:orderInCategory="100"
+        android:title="New to-do item"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miDeleteAll"
+        android:orderInCategory="150"
+        android:title="Delete all items"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miShowDoneItems"
+        android:orderInCategory="200"
+        android:title="Show finished tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miInProgressItems"
+        android:orderInCategory="250"
+        android:title="Show tasks in progress"
+        app:showAsAction="never" />
+</menu>

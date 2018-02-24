@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Practical settings">
+        <ListPreference
+            android:key="order"
+            android:summary="What should be the order of your tasks?"
+            android:title="List arrangement"
+            android:entries="@array/order_entries"
+            android:entryValues="@array/order_values"
+            android:defaultValue="1"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

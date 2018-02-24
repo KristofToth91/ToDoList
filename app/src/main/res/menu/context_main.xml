@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miDelete"
+        android:orderInCategory="50"
+        android:title="Delete item"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/miEdit"
+        android:orderInCategory="30"
+        android:title="Edit item"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/miDone"
+        android:orderInCategory="20"
+        android:title="Done!"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kristof Toth\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0dd6c79395bc5e737f168cbc5361731f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Prog\ToDoList\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kristof Toth\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\2959fd718e3f723d30b76a40c74ba6b1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="C:\Prog\ToDoList\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kristof Toth\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\3bfc5a052c2800a479398e939e1571d2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Prog\ToDoList\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+
+</items>
