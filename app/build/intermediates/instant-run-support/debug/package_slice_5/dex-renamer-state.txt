@@ -1,4 +1,4 @@
-#Thu Feb 22 00:36:49 CET 2018
+#Tue Feb 27 18:50:15 CET 2018
 base.0=C\:\\Prog\\ToDoList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

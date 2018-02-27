@@ -91,7 +91,6 @@ public class ToDoItemDAO implements DAOinterface {
 
             boolean done = false;
             if (cursor.getString(cursor.getColumnIndex("done")) == null) {
-                Log.d("TODOAPP", name + ", " + id);
             }
             if (cursor.getString(cursor.getColumnIndex("done")).equals("true")) {
                 done = true;
@@ -99,7 +98,7 @@ public class ToDoItemDAO implements DAOinterface {
 
             ToDoItem item = new ToDoItem(name, verbosetext, date, priority, id, done);
             items.add(item);
-            Log.d("TODOAPP", "item id: " + item.getId() + " created");
+
             cursor.moveToNext();
         }
         cursor.close();

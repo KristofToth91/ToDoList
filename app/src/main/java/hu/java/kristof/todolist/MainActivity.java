@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 doItem.setItemPriority(4);
                 doneList.add(doItem);
                 inProgressList.remove(doItem);
+                dao.saveToDoItem(doItem);
                 Toast.makeText(MainActivity.this, "Item is done!", Toast.LENGTH_LONG).show();
         }
         return super.onContextItemSelected(item);
@@ -170,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         } else if (id == R.id.miShowDoneItems) {
             inProgressListView = false;
-            refreshAdapter();
+                        refreshAdapter();
             return true;
         } else if (id == R.id.miInProgressItems) {
             inProgressListView = true;
@@ -243,10 +244,9 @@ public class MainActivity extends AppCompatActivity {
         inProgressList = dao.listSeparation(itemList, "inProgressList");
         listOrderConfiguration();
         if (inProgressListView) {
-
             adapter = new ToDoItemAdapter(this, R.layout.listview_item, inProgressList);
-
             ListView lvToDoItems = findViewById(R.id.lvToDoItems);
+
             lvToDoItems.setAdapter(adapter);
             registerForContextMenu(lvToDoItems);
         } else {
