@@ -70,7 +70,7 @@ public class ToDoItemActivity extends AppCompatActivity {
         setContentView(R.layout.new_todoitem_view);
         intent = getIntent();
         etName = findViewById(R.id.etName);
-        etVerbose = findViewById(R.id.etName);
+        etVerbose = findViewById(R.id.etVerbose);
         rgGroup = findViewById(R.id.rgGroup);
         rbTopprio = findViewById(R.id.rbTopprio);
         rbImportant = findViewById(R.id.rbImportant);
